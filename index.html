@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerangka Proyek HTML CSS dengan Navbar dan Sidebar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="mr-3 ml-2">
+
+        <!-- Navbar -->
+        <nav class="navbar gap-8 flex justify-between bg-white">
+            <div class="items-center">
+                <img src="public/resources/assets/Logo Navbar.png" class="text-black w-[130px]"></img>
+            </div>
+        <div class="items-center">
+            <ul class="flex gap-8">
+                <li><a href="#" class="text-red-600">Why FOODELI</a></li>
+                <li><a href="public/resources/views/navbar/about.html" class="text-black">Services</a></li>
+                <li><a href="public/resources/views/navbar/service.html" class="text-black">Menu</a></li>
+                <li><a href="public/resources/views/navbar/contact.html" class="text-black">Contact</a></li>
+            </ul>
+        </div>
+        <div class="flex gap-9 items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6 text-black">
+            <path stroke-linecap="round" stroke-linejoin="round"
+            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+        </svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+        stroke="currentColor" class="size-6 text-black">
+        <path stroke-linecap="round" stroke-linejoin="round"
+        d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+    </svg>
+    <button class="bg-red-600 px-6 py-2 text-white rounded-full">
+        login
+    </button>
+</div>
+</nav>
+
+<!-- Main Content -->
+<div class="main-content flex">
+    <div class="flex flex-col items-center justify-between gap-8">
+        <div class="flex">
+            <div>
+                <h1 class="text-6xl font-bold text-gray-800 mb-4">Claim Best Offer on Fast <span
+                    class="text-red-600">Food</span> & <span class="text-red-600">Restaurants</span></h1>
+                    <p>Our job is to filling your tummy with delicious food and with fast and free delivery</p>
+                        <div class="button-container flex h-auto gap-4">
+                            <button
+                            class="bg-rose-600 py-2 px-4 rounded-2xl text-white hover:bg-red-500 transition-colors duration-300">Get
+                            Started</button>
+                            <img src="public/resources/assets/iconlogin.png" alt="">
+                            <button
+                            class="bg-gray-100 py-2 px-4 rounded-2xl flex items-center gap-2 hover:bg-gray-200 transition-colors duration-300">
+                            <img src="public/resources/assets/Play Icon.png" alt="Icon Play" class="w-6 h-6">
+                            <p class="text-gray-700">Watch Video</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="image-hero flex">
+                <img class="absolute" src="public/resources/assets/Hero Image.png" alt="">
+                <img class="absolute left-1" src="public/resources/assets/heroimgAccent.png" alt="">
+                <img class="absolute right-60 top-140" src="public/resources/assets/accentHero.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
